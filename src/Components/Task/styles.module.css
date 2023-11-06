@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(190, 140, 237);
+}
+
+.task p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.iconsContainer img {
+  align-self: flex-end;
+  width: 35px;
+  margin: 10px;
+}
+.iconsContainer button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
